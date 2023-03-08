@@ -50,7 +50,6 @@ img {
     height: 100%;
     max-width: 75rem;
     margin: 0 auto;
-    padding: 0 1.25rem;
     color: #fff;
 }
 
@@ -60,6 +59,10 @@ img {
 
 .logoimg{
     height: 1.875rem;
+}
+
+.col2{
+    padding-right:15%;
 }
 
 /* ELEMENTI MAIN  */
@@ -84,9 +87,34 @@ main{
 
 .box{
     padding: .625rem;
+    width: 90%;
     height: 80%;
-    
+    position: relative;  
 }
+
+.box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+}
+
+img:last-child{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.box:hover img:first-child{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.box:hover img:last-child{
+    opacity: 1;
+    visibility: visible;
+}
+
 
 /* ELEMENTI FOOTER */
 
