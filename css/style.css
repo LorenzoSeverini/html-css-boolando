@@ -80,7 +80,6 @@ main{
 }
 
 .col{
-    display: flex;
     width: calc(100%/3);
     height: 46.25rem;
 }
@@ -88,7 +87,7 @@ main{
 .box{
     padding: .625rem;
     width: 90%;
-    height: 80%;
+    height:32.5rem;
     position: relative;  
 }
 
@@ -115,6 +114,18 @@ img:last-child{
     visibility: visible;
 }
 
+.priceLined{
+    text-decoration: line-through;
+}
+
+.titlePrice{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.pricered{
+    color: red;
+}
 
 /* ELEMENTI FOOTER */
 
