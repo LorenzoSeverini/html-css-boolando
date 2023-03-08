@@ -19,13 +19,13 @@ body{
 .bgcolorNero{background-color: #1a1a1a;}
 
 .longBanner{
-    width: 100%;
+    width: 120rem;
     height: 5rem;
     position: fixed;
-    top: 0;
-    left: 0;
     z-index: 1000;
 }
+
+header{top: 0;}
 
 a{
     color: #fff;
@@ -55,4 +55,34 @@ a:hover{
 
 .logoimg{
     height: 1.875rem;
+}
+
+/* ELEMENTI MAIN  */
+
+.container{
+    position: relative;
+    width: 75rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+/* ELEMENTI FOOTER */
+
+footer{bottom: 0;}
+
+.colonna {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colonna-sinistra {
+    justify-content: flex-start;
+}
+
+.colonna-destra {
+    justify-content: flex-end;
 }
