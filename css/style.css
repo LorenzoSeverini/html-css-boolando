@@ -20,11 +20,20 @@ body{
 
 .longBanner{
     width: 100%;
-    height: 80px;
+    height: 5rem;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 /* ELEMENTI HEADER */
@@ -34,14 +43,16 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 1.25rem;
     color: #fff;
 }
 
 .navbar a{
-    color: #fff;
-    text-decoration: none;
     margin: 0 10px;
+}
+
+.logoimg{
+    height: 1.875rem;
 }
